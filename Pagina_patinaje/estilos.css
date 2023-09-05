@@ -1,0 +1,59 @@
+/* body */
+.body {
+    background: linear-gradient(rgb(0,0,0), rgb(2, 57, 2)) ;
+}
+/* header */
+header { 
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(79, 236, 184);
+    padding: 15px;
+    margin: none;
+}
+/* la etiqueta nav */
+nav {
+    text-align: center;
+    text-decoration: solid;
+    background-color: rgb(62, 187, 145);
+    margin: none;
+    padding: 15px;
+}
+/* los enlaces de el menu principal */
+a {
+    text-decoration: none;
+    color: rgb(95, 58, 7);
+    margin: 7px;    
+}
+a:hover{
+    color: crimson;
+}
+a:active{
+    color: rgb(0, 0, 0);
+}
+/* el div  */
+div {
+    text-align: center;
+    background-color: rgb(62, 187, 145);
+}
+/* la clase del primer parrafo */
+.texto1 {
+    background-color: rgb(62, 187, 145);
+    margin: 30px;
+    padding: 10px;
+}
+section {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-color: aquamarine;
+}
+footer {
+    display: block;
+    margin: 7px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(71, 175, 255);
+}
+/* hay que empezar a usar linearGradient para darle mas personalizacion a la pagina */
+/* hay que aprender (y practicar) a usar la propiedad opacity */
