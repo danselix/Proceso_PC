@@ -1,0 +1,6 @@
+# ignora carpeta de imagenes
+imagenes/
+# ignora mas imagenes
+full-stack/aja/imagenes/
+full-stack/aprendiendo/aprendiendo1/imagenes
+# ignora videos

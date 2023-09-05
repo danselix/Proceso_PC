@@ -1,0 +1,63 @@
+
+nav {
+    background: purple;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around; /* justify content sirve para indicarle al navegador como queremos posicionar lo que se encuentra dentro de nav, existen un par de opciones como: center; space-between; space-arround y flex-end */
+
+}
+.navBar{
+    display: inline-block;
+    /* display: block; este display mostraria las anclas en forma de bloque (en lugar de en linea como se  muestra naturalmente */
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none; /* lo que le indicamos con esta propiedad es que le quite todas las decoraciones y subrayados al texto que se muestran de forma natural */
+    
+}
+.navBar:hover{
+    background: grey;
+}
+
+
+.button {
+    margin: 5px;
+    padding: 5px;
+    background: #C87676;
+}
+.button:hover{
+    margin: 5px;
+    padding: 5px;
+    background: #472b2b;
+}
+
+
+.p {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px; 
+    color: turquoise;
+    background: blueviolet; 
+}
+.p:hover{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    color: blue;
+    background: #39B5E0;
+}
+ /* aqui abajo podemos ver 3 clases de css. el primero esta solo cambiando el estio del boton normal. con hover esta cambiando la propiedad cuando el mouse esta encima. y el active esta cambiando la clase cuando se hace o detecta click encima del boton */
+
+
+.button1{
+    background: #4E6C50;
+    color: #FAECD6;
+
+}   
+.button1:hover{
+    background: #FAECD6;
+    color:#4E6C50 ;
+}
+.button1:active{
+    background: #F0997D;
+}

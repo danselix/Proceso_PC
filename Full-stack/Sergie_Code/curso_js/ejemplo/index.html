@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso javascript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="h1">Curso Javascript</h1>
+    <h3>Dictado por Sergie Code</h3>
+    <br><br><br><br>
+
+    <h2>¿Que es lo que puedo hacer con javascript?</h2>
+    <!-- esta es una demostracion de lo que puede hacerse con javascript desde el html -->
+    <!-- <p id="demostracion">Este texto será transformado por js</p> -->
+    <!-- onclick es el evento que escucha JS -->
+    <!-- <button onclick="document.getElementById('demostracion').innerHTML = 'texto transformado por html' ">Usar JavasCript</button> -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////// -->
+
+
+    <p id="demostracion"></p>
+    <script>
+        document.getElementById('demostracion').innerHTML = 'texto incertado por JS dentro del html'
+    </script>
+    <p id="demostracion2"></p>
+
+
+
+
+    <hr>
+    <br><br><br><br><br><br>
+    <p class="p">hay que recorda que JS vendria siendo la parte interactiva de la pagina web que estamos creando. Siguiendo la misma analogia podriamos decir que HTML vendria siendo el esqueleto, y CSS seria la ropa y el maquillaje</p>
+
+
+
+    <!-- esta es la manera correcta de vincular el archivo JS -->
+    <script src="js1.js"></script> <!-- la idea es siempre hacerlo al final del body -->
+    <p class="p"><i>Es importante recordar que javascript puede usarse inline <b>(que implica colocar el codigo dentro de la misma linea o etiqueta)</b> O con una etiqueta script dentro del archivo html <b>(se coloca una etiqueta script al final del body con todo el codigo que se usará)</b> O linqueado desde un archivo aparte <b>(el cual es el mas usado)</b></i></p>
+</body>
+</html>

@@ -1,0 +1,132 @@
+
+.cuerpo1{
+  background-color: rgb(27, 3, 62);
+}
+
+/* body {
+  background-color: rgb(1, 1, 48);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+} */
+
+.titulos1 {
+  background-color: cadetblue;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 7px;
+  color: rgb(9, 50, 75);
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulos2_1{
+  background-color: cadetblue;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 7px;
+  color: rgb(9, 50, 75);
+  font-size:xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulos2_2{
+  background-color: cadetblue;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 7px;
+  color: rgb(9, 50, 75);
+  font-size:x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulos2_3{
+  background-color: cadetblue;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 7px;
+  color: rgb(9, 50, 75);
+  font-size:x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parrafo1 {
+  background-color: rgb(7, 102, 105);
+  padding: 15px;
+  margin: 15px;
+  border-radius: 7px;
+  color: rgb(218, 227, 231);
+  font-size: larger;
+  opacity: 0.7;
+}
+.parrafo2 {
+  background-color: rgb(11, 106, 109);
+  padding: 15px;
+  margin: 15px;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parrafo_C2{
+  background-color: rgb(17, 155, 109);
+  padding: 15px;
+  margin: 15px;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+}
+.div {
+  background-color: rgb(25, 75, 76);
+  padding: 7px;
+  margin: 7px;
+  border-radius: 15px;
+  color: rgb(176, 207, 226);
+}
+.div_Cuerpo2{
+  background-color:rgb(154, 78, 7);
+  padding: 1px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: 1px;
+  border-radius: 10px;
+  color: rgb(9, 50, 75);
+}
+.copiar {
+  color: white;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 7px;
+  background-color: rgb(190, 99, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* //**\\PRUEBA DE CODIGO CHATGPT//**\\ */
+
+.contenedor {
+  position: relative; /* Asegura que los elementos posicionados estén en relación con este contenedor */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.contenedor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://e1.pxfuel.com/desktop-wallpaper/594/518/desktop-wallpaper-fondos-de-pantalla-abstractos-para-celular-neon-water.jpg")
+    no-repeat center center / cover; /* Cambia 'ruta-de-tu-imagen.jpg' por la ruta de tu imagen */
+  opacity: 0.7; /* Cambia el valor para ajustar la opacidad */
+  z-index: -1; /* Coloca el fondo detrás del contenido */
+}

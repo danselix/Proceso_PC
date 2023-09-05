@@ -1,0 +1,30 @@
+.full-body{
+    background-color: cadetblue;
+}
+.titulo{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.titulo1{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.parrafo{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.imagen{
+    width: 680px;
+}
+.ancla{
+    background-color:bisque;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+}

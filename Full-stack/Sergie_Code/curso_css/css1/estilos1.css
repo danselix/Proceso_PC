@@ -1,0 +1,46 @@
+.bodyHtml {
+  background-color: cornflowerblue;
+}
+/* .titulo1 {
+  margin: 15px;
+  padding: 15px;
+  border-color: rgb(255, 255, 0);
+  border-style: double;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+} */
+.titulo2 {
+  margin: 15px;
+  padding: 15px;
+  border-color: black;
+  border-style: dashed;
+  background-color: blanchedalmond;
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parrafo1 {
+  margin: 15px;
+  padding: 15px;
+  border-color: black;
+  border-style: groove;
+  border-radius: 7px;
+  background-color: blanchedalmond;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.div1 {
+  margin: 5px;
+  padding: 5px;
+  background-color: darkcyan;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: aqua;
+  /*  */
+  display:flexbox;
+  justify-content: center;
+  align-items: center;
+}
+/* quedamos en el minuto 11:35 */

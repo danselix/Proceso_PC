@@ -1,0 +1,22 @@
+.fullBody{
+    background-color:cadetblue;
+}
+.titulo {
+    padding: 5px;
+    margin: 15px;
+    border: 15px;
+    background-color: bisque;
+    border-radius: 7px;
+  }
+  .img{
+      width: 650px;
+      border: 2px;
+      border-color: antiquewhite;
+  }
+  .link{
+    padding: 5px;
+    margin: 15px;
+    border: 15px;
+    background-color: wheat;
+    border-radius: 7px;
+  }

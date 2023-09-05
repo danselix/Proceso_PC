@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURSO CSS Sergie Code</title>
+    <link rel="stylesheet" href="estilos1.css">
+    <style>
+        /* 1 */
+        /* esta es una forma de hacer codigo css desde el html */
+        h1 {
+            margin: 15px;
+            padding: 15px;
+            border-color: rgb(255, 255, 0);
+            border-style: double;
+            border-radius: 10px;
+            background-color: blanchedalmond;
+        }
+
+        table {
+            margin: 15px;
+            padding: 15px;
+            background-color: aquamarine;
+            border-radius: 7px;
+            border-color: black;
+            border-width: 15px;
+        }
+
+        th,
+        td {
+            margin: 7px;
+            padding: 7px;
+            background-color: aqua;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+
+<body class="bodyHtml">
+
+    <h1>Curso de css SergieCode</h1>
+    <div class="div1">
+        <!-- 2 -->
+        <!-- en esta etiqueta h2 en lugar de pasarle los estilos por clase, lo hacemos mediante codigo css dentro de la etiqueta -->
+        <h2 style="margin: 15px;
+        padding: 15px;
+        border-color: black;
+        border-style: dashed;
+        background-color: blanchedalmond;
+        /* display: inline-block; */
+        display: flex;
+        justify-content: center;
+        align-items: center;">Demostracion de propiedad css dentro de la etiqueta</h2>
+        <!-- 3 -->
+        <!-- esta es la forma mas usada de utilizar estilos en css, la cual es citar la clase en la etiqueta para darle las propiedades -->
+        <p class="parrafo1"> 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, tempora dicta exercitationem, totam
+            suscipit deleniti optio minima hic ex, deserunt nesciunt. Aperiam et cupiditate reiciendis? Similique
+            repellat id aperiam iure!
+            <img src="../ ../ ../aprendiendo/aprendiendo1/imagenes/buho 1.png" alt="buho imagen">
+        </p>
+        <h2 class="titulo2">Titulo 2</h2>
+        <p class="parrafo1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum temporibus sed sequi, tempore sunt ab
+            perferendis earum quod! Dolor officia quibusdam molestiae perferendis saepe assumenda adipisci
+            necessitatibus delectus fuga natus?
+        </p>
+        <h2 class="titulo2">Titulo 3</h2>
+        <p class="parrafo1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dignissimos quia ipsa quaerat repellendus?
+            Dolores error quaerat ullam assumenda id aliquid cumque eaque accusamus! At corporis reiciendis placeat
+            dolorum velit?
+        </p>
+        <h2 class="titulo2" style="color: rgb(107, 12, 196);">Titulo 4</h2>
+        <p class="parrafo1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia beatae eos, non quidem expedita nulla
+            ratione deserunt suscipit nesciunt quos libero tempore. Consequuntur earum delectus nesciunt similique
+            praesentium aliquam sint?
+        </p>
+    </div>
+
+    <div class="div1">
+        <h1>Un ejemplo de Tabla</h1>
+        <table><!-- tiene estilos desde el head de el html -->
+            <thead>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <td>4</td>
+            </thead>
+            <tbody>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <th>4</th>
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+    <!-- final del cuerpo --><!-- final del cuerpo -->
+    <script src="script1.js">
+    </script>
+</body>
+
+</html>

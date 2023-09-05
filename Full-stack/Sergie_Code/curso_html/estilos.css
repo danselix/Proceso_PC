@@ -1,0 +1,82 @@
+.cuerpo {
+    background-image: url();
+    text-align: center;
+    background-image: linear-gradient(to left,#F4FA58, #9B59B6);
+    /* background-image: linear-gradient(to right, #ff0000, #0000ff); */   
+}
+.titulo {   
+    display:flexbox;
+    text-align: center;
+    background-image: linear-gradient(to right, #F4FA58, #9B59B6);
+    padding: 15px;
+    margin: 30px;
+    border-radius: 5px;
+}
+.parrafo {
+    text-align: center;
+    background-color: aqua;
+    background-image: linear-gradient(to right, #F4FA58, #9B59B6);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 7px;
+}
+.listaOrdenada {
+    text-align: justify;
+}
+.listaDesordenada {
+    text-align: justify;
+}
+.enlaces {
+    display: flex;
+    background-image: linear-gradient(to right, #F4FA58, #9B59B6);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 7px;
+}
+.etiquetas {
+    text-align: center;
+    display: inline-block;
+    background-color: brown;
+    padding: 15px;
+    margin: 7px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.imagenes {
+    text-align: center;
+    width: 720px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: black;
+
+}
+.video {
+    width: 700px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: black;
+}
+.tabla{
+    display:inline-table; /* revisar */
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+.td, .tr{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.cssestilo{
+    border: 1px solid #F4FA58;
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    color: antiquewhite;
+}
+  

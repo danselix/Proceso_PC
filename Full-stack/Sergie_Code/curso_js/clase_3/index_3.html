@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 3 SergieCode</title>
+    <link rel="stylesheet" href="estilos_3.css">
+</head>
+
+<body class="fullBody">
+    <div>
+        <h1 class="titulo">EVENTOS:</h1>
+        <button class="miBoton" onclick="mostrar()" onmouseleave="textoAlternativo()">Mostrar fecha</button>
+        <!-- revisar todos los eventos html como onclick -->
+        <p class="parrafo" id="seleccionable">Mostrar fecha</p>
+
+    </div>
+    <br><hr>
+    <div>
+        <h2 class="titulo">Eventos de boton con js</h2>
+        <p class="parrafo" id="textoSutil">Sin pasar el mouse</p>
+        <button class="miBoton" onmouseenter="textoSutil()" onmouseleave="sutilDesaparece()">Efectos de mouse</button>
+    </div>
+    <br><hr>
+    <div>
+        <h2 class="titulo">ejemplo onchange</h2>
+        <p class="parrafo" id="mostrar1">texto a transformar</p>
+        <select onchange="mostrar1()" class="miBoton">
+            <option value="HTML">HTML</option>
+            <option value="HTML">CSS</option>
+            <option value="HTML">JAVASCRIPT</option>
+            <option value="HTML">REACT</option>
+        </select>
+    </div>    
+ 
+    <script src="script_3.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+const x = ()=>{
+    console.log("hola Daniel, lo lograste")
+}
+
+
+
+x();

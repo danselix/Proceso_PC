@@ -1,0 +1,31 @@
+nav{
+    background: #F0997D;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+a{
+    display: block;
+    /* aqui convertimos las anclas (que naturalmente son elementos de linea (verticalmente)) en elementos de bloque */
+}
+
+.padre{
+    display: flex;/*  tambien se puede usar la definicion inline-block */
+    /* aqui se usa el elemento padre para convertir los contenedores de parrafo (que es un elemento de bloque) en un elemento flex. eseto para que se posicione horizontalmente (como linea) en ves de vertical (como elemento de bloque) */
+}
+
+.columnas{
+    background: #A75D5D;
+    color: #FFC3A1;
+    padding: 4px;
+    margin: 10px;
+    width: 25%;
+}
+
+h1{
+    display: inline-block;
+    background-color: tomato;
+    padding: 20px;
+    /* lo importante de este ejemplo es que estamos convirtiendo etiquetas h1 (que usualmente son bloques) en elementos de linea */
+}

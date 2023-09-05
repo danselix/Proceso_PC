@@ -1,0 +1,38 @@
+/* HTML Cuerpo */
+.fullBody {
+  background-color: cadetblue;
+}
+/* Titulo */
+.titulo {
+  padding: 10px;
+  margin: 1px;
+  border: 1px;
+  background-color: bisque;
+  border-radius: 7px;
+}
+/* Boton */
+.miBoton {
+  margin: opx;
+  background-color: chocolate; /* Color de fondo normal */
+  color: white; /* Color del texto normal */
+  padding: 10px; /* Espacio de relleno */
+  border: none; /* Quitar el borde */
+  border-radius: 7px;
+  cursor: pointer; /* Cambiar el cursor a una mano */
+}
+.miBoton:hover {
+  border-radius: 7px;
+  background-color: orange; /* Color de fondo al pasar el cursor */
+  color: black; /* Color del texto al pasar el cursor */
+}
+/* Parrafo */
+.parrafo{
+  padding: 7px;
+  margin: 10px;
+  border: 5px;
+  background-color:coral;
+  border-radius: 7px;
+}
+
+
+

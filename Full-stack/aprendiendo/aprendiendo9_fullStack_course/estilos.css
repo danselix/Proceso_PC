@@ -1,0 +1,47 @@
+.html{
+  background-image: linear-gradient(to bottom, 2E46CB, 0228FE);
+}
+
+/*  */
+.p {
+    background-color: #777;
+    padding: 10px; /* Agrega espacio alrededor del contenido */
+    border: 5px solid green; /* Agrega un borde para dr la impresión de margen */
+}
+.p_hr {
+  border:#777;
+  height: 10px;
+  margin: 100;
+  background-color: #f89203;
+}
+
+/*  */
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+}
+
+.tabla_th,
+.tabla_td {
+  background-color:burlywood;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+/* .tabla_th {
+  background-color:burlywood;
+  font-weight: bold;
+  color: #333;
+} */
+.celda-normal {
+  background-color: #fff;
+  color: #333;
+}
+.celda-resaltada {
+  background-color: #f5a623;
+  color: #fff;
+  font-weight: bold;
+}

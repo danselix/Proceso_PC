@@ -1,0 +1,27 @@
+.full-body{
+    background-color: cadetblue;
+}
+.titulo{
+    padding: 10px;
+    background-color:chocolate;
+    border-radius: 7px;
+}
+.parrafo{
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 7px;
+}
+.miBoton {
+    margin: opx;
+    background-color: chocolate; /* Color de fondo normal */
+    color: white; /* Color del texto normal */
+    padding: 10px; /* Espacio de relleno */
+    border: none; /* Quitar el borde */
+    border-radius: 7px;
+    cursor: pointer; /* Cambiar el cursor a una mano */
+  }
+  .miBoton:hover {
+    border-radius: 7px;
+    background-color: orange; /* Color de fondo al pasar el cursor */
+    color: black; /* Color del texto al pasar el cursor */
+  }

@@ -1,0 +1,16 @@
+.cuerpoentero{
+    background-color: bisque;
+}
+.imagen{
+    height: 500px;
+}
+/* .miniImagen{
+    height: 500px;
+    width: 500px;
+} */
+.th{
+    background-color: aqua;
+}
+.tr{
+    background-color: aquamarine;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(48, 26, 30);
+}
+
+.h1 {
+    background-color: blueviolet;
+    background-size: 20px;
+    color: aqua;
+    border: 5px;
+    border-color: blueviolet;
+    text-align: center;
+    
+}
+
+.p1{
+    margin: 30px;
+    padding: 20px;
+    text-align: left;
+    background-color:brown;
+}
+
+.p2{
+    margin: 30px;
+    padding: 20px;
+    text-align: right;
+    background-color: blueviolet;
+}

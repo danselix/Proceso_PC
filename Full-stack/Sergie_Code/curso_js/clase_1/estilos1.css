@@ -1,0 +1,9 @@
+.titulo {
+  margin: 15px;
+  border: 15px;
+  background-color: bisque;
+  border-radius: 7px;
+}
+.img{
+    height: 650px;
+}

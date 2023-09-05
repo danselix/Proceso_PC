@@ -1,0 +1,24 @@
+.cuerpoEntero{
+    background-color: brown;
+    opacity: 100;
+}
+.titulo{
+    background-color: aliceblue; 
+    margin: 15px;
+    padding: 15px;
+    border-radius: 7px;   
+}
+.parrafo{
+background-color: aliceblue;
+}
+.tabla{
+    background-color: antiquewhite;
+}
+.enlace{
+    background-color: aquamarine;
+    color: blue;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: x-large;
+}
