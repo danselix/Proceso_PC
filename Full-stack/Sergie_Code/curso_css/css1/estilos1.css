@@ -38,9 +38,10 @@
   border-radius: 7px;
   border-style: solid;
   border-color: aqua;
+  border-width: 5px;
   /*  */
   display:flexbox;
   justify-content: center;
   align-items: center;
 }
-/* quedamos en el minuto 11:35 */
+/* comenzamos a partir del minuto 11:35 */

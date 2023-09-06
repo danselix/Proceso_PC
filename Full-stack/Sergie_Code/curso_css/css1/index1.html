@@ -9,6 +9,22 @@
     <style>
         /* 1 */
         /* esta es una forma de hacer codigo css desde el html */
+        * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        /* el '*' se usa para referirse a todo en y dentro del body */
+        #id1 {
+            text-align: right;
+            margin: 15px;
+            padding: 15px;
+            border-color: black;
+            border-style: groove;
+            border-radius: 7px;
+            background-color: blanchedalmond;
+        }
+
         h1 {
             margin: 15px;
             padding: 15px;
@@ -34,6 +50,17 @@
             background-color: aqua;
             border-radius: 7px;
         }
+
+        .ejemplo1 {
+            background-color: black;
+            color: white;
+            margin: 15px;
+            padding: 15px;
+            display: flexbox;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -54,7 +81,7 @@
         align-items: center;">Demostracion de propiedad css dentro de la etiqueta</h2>
         <!-- 3 -->
         <!-- esta es la forma mas usada de utilizar estilos en css, la cual es citar la clase en la etiqueta para darle las propiedades -->
-        <p class="parrafo1"> 
+        <p class="parrafo1">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, tempora dicta exercitationem, totam
             suscipit deleniti optio minima hic ex, deserunt nesciunt. Aperiam et cupiditate reiciendis? Similique
             repellat id aperiam iure!
@@ -99,11 +126,16 @@
         </table>
     </div>
 
-
+    <div class="div1">
+        <!-- titulo para probar clase ".ejemplo1" desde el head en lugar dl archivo aparte. -->
+        <h1 class="ejemplo1">Ejemplo1</h1>
+        <p id="id1">Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit. <br> Excepturi dolore quia enim fugiat, <br>tempora distinctio culpa minus veritatis beatae voluptate quos ut, <br>sit cumque totam nemo consequuntur repellat illo quisquam?</p>
+    </div>
 
 
     <!-- final del cuerpo --><!-- final del cuerpo -->
     <script src="script1.js">
+
     </script>
 </body>
 
