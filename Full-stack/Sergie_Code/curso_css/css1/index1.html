@@ -15,6 +15,7 @@
         }
 
         /* el '*' se usa para referirse a todo en y dentro del body */
+
         #id1 {
             text-align: right;
             margin: 15px;
@@ -41,6 +42,14 @@
             border-radius: 7px;
             border-color: black;
             border-width: 15px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        table.table1 { /* al utilizar este .table1 estamos haciendo referencia a la tabla que tiene esa clase. esto para usar con codigo css  dentro del body */
+            display: inline-block;
+            
+            align-items: center;
         }
 
         th,
@@ -51,6 +60,7 @@
             border-radius: 7px;
         }
 
+        /* selector de clase ".ejemplo1"*/
         .ejemplo1 {
             background-color: black;
             color: white;
@@ -107,20 +117,54 @@
         </p>
     </div>
 
-    <div class="div1">
+    <!-- <h1>Un ejemplo de Tabla</h1> -->
+    <div class="div2">
         <h1>Un ejemplo de Tabla</h1>
-        <table><!-- tiene estilos desde el head de el html -->
+        <table class="table1"><!-- tiene estilos desde el head de el html -->
             <thead>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <td>4</td>
+                <th style="color:white ;">1</th>
+                <th style="color:white ;">2</th>
+                <th style="color:white ;">3</th>
+                <td style="color:burlywood;">4</td>
             </thead>
             <tbody>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <th>4</th>
+                <td style="color:white ;">1</td>
+                <td style="color:white ;">2</td>
+                <td style="color:white ;">3</td>
+                <th style="color:burlywood ;">4</th>
+
+            </tbody>
+            <tbody>
+                <td style="color:white ;">1</td>
+                <td style="color:white ;">2</td>
+                <td style="color:white ;">3</td>
+                <th style="color:burlywood ;">4</th>
+
+            </tbody>
+        </table>
+        </div>
+        <div class="contenedor">
+        <h1>Un ejemplo de Tabla</h1>
+    
+        <table class="tabla2"><!-- tiene estilos desde el head de el html -->
+            <thead>
+                <th style="color:white ;">1</th>
+                <th style="color:white ;">2</th>
+                <th style="color:white ;">3</th>
+                <td style="color:burlywood;">4</td>
+            </thead>
+            <tbody>
+                <td style="color:white ;">1</td>
+                <td style="color:white ;">2</td>
+                <td style="color:white ;">3</td>
+                <th style="color:burlywood ;">4</th>
+
+            </tbody>
+            <tbody>
+                <td style="color:white ;">1</td>
+                <td style="color:white ;">2</td>
+                <td style="color:white ;">3</td>
+                <th style="color:burlywood ;">4</th>
 
             </tbody>
         </table>
@@ -129,7 +173,9 @@
     <div class="div1">
         <!-- titulo para probar clase ".ejemplo1" desde el head en lugar dl archivo aparte. -->
         <h1 class="ejemplo1">Ejemplo1</h1>
-        <p id="id1">Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit. <br> Excepturi dolore quia enim fugiat, <br>tempora distinctio culpa minus veritatis beatae voluptate quos ut, <br>sit cumque totam nemo consequuntur repellat illo quisquam?</p>
+        <p id="id1">Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit. <br> Excepturi dolore quia enim
+            fugiat, <br>tempora distinctio culpa minus veritatis beatae voluptate quos ut, <br>sit cumque totam nemo
+            consequuntur repellat illo quisquam?</p>
     </div>
 
 

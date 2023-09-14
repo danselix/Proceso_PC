@@ -40,8 +40,30 @@
   border-color: aqua;
   border-width: 5px;
   /*  */
-  display:flexbox;
+  display: flexbox;
   justify-content: center;
   align-items: center;
 }
-/* comenzamos a partir del minuto 11:35 */
+.div2 {
+  margin: 5px;
+  padding: 5px;
+  background-color: darkcyan;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: aqua;
+  border-width: 5px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
+  padding: 15px;
+  margin: 15px;
+  background-color: darkcyan;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: aqua;
+  border-width: 5px;
+}
+/* comenzamos a partir del minuto 28:38 */
