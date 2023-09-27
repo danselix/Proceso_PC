@@ -1,15 +1,17 @@
 .cuerpo {
-    background-image: url();
     text-align: center;
+    justify-content: center;
     background-image: linear-gradient(to left,#F4FA58, #9B59B6);
-    /* background-image: linear-gradient(to right, #ff0000, #0000ff); */   
+    /* background-image: linear-gradient(to right, #ff0000, #0000ff); */
+    
+    
 }
 .titulo {   
     display:flexbox;
     text-align: center;
     background-image: linear-gradient(to right, #F4FA58, #9B59B6);
-    padding: 15px;
-    margin: 30px;
+    padding: 5px;
+    margin: px;
     border-radius: 5px;
 }
 .parrafo {

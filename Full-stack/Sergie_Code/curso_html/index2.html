@@ -6,45 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica jeje</title>
     <link rel="stylesheet" href="estilos.css">
+    <style>
+        .div1 {
+            background-color: burlywood;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 7px;
+        }
+        .img{
+            height: 700px;
+        }
+    </style>
 </head>
 
 <body class="cuerpo">
-    <h1 class="titulo">¿Cuantos kilometros hay de la tierra a la Luna?</h1>
+    <div class="div1">
+        <h1 class="titulo">¿Cuantos kilometros hay de la tierra a la Luna?</h1>
 
-    <!-- la etiqueta <abbr> se usa para anclar un string oculto a una cadena de texto que seleccionemos, esta cadena se mostrara cuando mantengamos el cursor encima de la cadena de strings que hayamos marcado dentro de la etiqueta -->
-    <p class="parrafo">Desde la tierra a la luna hay 384.000 <abbr title="kilometros">Kms</abbr></p>
-    <p class="parrafo">la palabra <abbr title="Amor">que siento por ti</abbr><br>
-        no es mas que una <abbr title="se feliz">simple expresion</abbr><br>
-    </p>
-    <h1 class="titulo">¿Que significa oms?</h1>
-    <p class="parrafo">Coloca el mouse encima para saberlo: <abbr
-            title="Organisacion Mundial de la Salud">OMS</abbr><!-- 
+        <!-- la etiqueta <abbr> se usa para anclar un string oculto a una cadena de texto que seleccionemos, esta cadena se mostrara cuando mantengamos el cursor encima de la cadena de strings que hayamos marcado dentro de la etiqueta -->
+        <p class="parrafo">Desde la tierra a la luna hay 384.000 <abbr title="kilometros">Kms</abbr></p>
+        <p class="parrafo">la palabra <abbr title="Amor">que siento por ti</abbr><br>
+            no es mas que una <abbr title="se feliz">simple expresion</abbr><br>
+        </p>
+    </div>
+    <div class="div1">
+        <h1 class="titulo">¿Que significa oms?</h1>
+        <p class="parrafo">Coloca el mouse encima para saberlo: <abbr
+                title="Organisacion Mundial de la Salud">OMS</abbr><!-- 
                                                             <acronym tittle="Organisacion Mundial De La Salud">OMS</acronym> </p> 
                                                             esta clase de etiqueta ya no se usa, pero todavia se encuentra-->
+    </div>
 
-
-    <h1 class="titulo">Lo que viene ahora es un ejemplo de la etiqueta 'a'</h1>
-    <a class='etiquetas' href="https://www.youtube.com/watch?v=bNV6iw13Rnk" target="_blank"><b>Curso <i>HTML</i>
-            Sergie</b></a>
-    <a class='etiquetas' href="https://www.youtube.com/watch?v=rTtC6Q-71qg" target="_blank"><b>Curso <i>CSS</i>
-            Sergie</b></a>
-    <a class='etiquetas' href="https://www.youtube.com/watch?v=N8Xt5rP_DUo" target="_blank"><b>Curso <i>Javascript</i>
-            Sergie</b></a>
-    <!-- esta propiedad 'mailto' sirve para enviar un correo al correo programado -->
-    <a class='etiquetas' href="mailto: thecellomen@gmail.com"><b>Enviar Mail de contacto</b></a>
-    <!-- esta propiedad 'tel' sirve para hacer una llamada al numero programado -->
-    <a class="etiquetas" href="tel: +573058010917"><b>Numero de contacto</b></a>
-    <hr>
-    <hr>
-    <hr><br><br>
-    <hr>
-    <hr>
-    <hr>
-
+    <div class="div1">
+        <h1 class="titulo">Lo que viene ahora es un ejemplo de la etiqueta 'a'</h1>
+        <a class='etiquetas' href="https://www.youtube.com/watch?v=bNV6iw13Rnk" target="_blank"><b>Curso <i>HTML</i>
+                Sergie</b></a>
+        <a class='etiquetas' href="https://www.youtube.com/watch?v=rTtC6Q-71qg" target="_blank"><b>Curso <i>CSS</i>
+                Sergie</b></a>
+        <a class='etiquetas' href="https://www.youtube.com/watch?v=N8Xt5rP_DUo" target="_blank"><b>Curso
+                <i>Javascript</i>
+                Sergie</b></a>
+        <!-- esta propiedad 'mailto' sirve para enviar un correo al correo programado -->
+        <a class='etiquetas' href="mailto: thecellomen@gmail.com"><b>Enviar Mail de contacto</b></a>
+        <!-- esta propiedad 'tel' sirve para hacer una llamada al numero programado -->
+        <a class="etiquetas" href="tel: +573058010917"><b>Numero de contacto</b></a>
+        <hr>
+        <hr>
+        <hr><br><br>
+        <hr>
+        <hr>
+        <hr>
+    </div>
+<div class="div1">
     <!-- LA ETIQUETA IMG -->
     <h1 class="titulo">Etiqueta de IMG</h1>
     <img src="leonardo IA/time adventure.jpg" alt="time adventure" width="700px" class="imagenes">
-
+</div>
     <h1 class="titulo">Etiqueta de 'video'</h1>
     <video class="video" src="videos/free_fall.mp4" alt="Its called: free fall" width="720px" controls autoplay
         muted></video>
@@ -73,34 +90,35 @@
 
     <h1 class="titulo">Ejemplo de listas</h1>
     <div class="parrafo">
-    <h2>Ejemplo de lista desordenada 'Unordered list'</h2>
-    <!-- en las listas podemos agregar 'type:""' para cambiar los simbolos con los que se organiza la lista -->
-    <ul class="listaDesordenada"> <!-- UL= unordered list -->
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
-    </ul>
-    <h2 class="titulo">Ejemplo de lista desordenada 'Ordered list'</h2>
+        <h2>Ejemplo de lista desordenada 'Unordered list'</h2>
+        <!-- en las listas podemos agregar 'type:""' para cambiar los simbolos con los que se organiza la lista -->
+        <ul class="listaDesordenada"> <!-- UL= unordered list -->
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+        </ul>
+        <h2 class="titulo">Ejemplo de lista desordenada 'Ordered list'</h2>
     </div>
     <div class="parrafo">
-    <p class="parrafo">
-    tabmien podemos colocar propiedades como 'reversed' o 'starts' o 'type'  para cambiar el orden por el numero en el que comienza</p>
-    <ol class="listaOrdenada" > <!-- reversed --> <!-- ordered list -->
-        <li>Levantarse</li>
-        <li>Meditar</li>
-        <li>Bañarse</li>    
-        <li>Cocinar el desayuno</li>
-        <ul class="listaDesordenada">
-            <li>Para cuantas personas?</li>
-            <li>Que ingredientes se poseen?</li>
-            <li>Sacar todos los ingredientes</li>
-            <li>Preparar el desayuno</li>
-        </ul>
-        <li>item 4</li>
-        <li>item 5</li>
-    </ol>
-    </p>
+        <p class="parrafo">
+            tabmien podemos colocar propiedades como 'reversed' o 'starts' o 'type' para cambiar el orden por el numero
+            en el que comienza</p>
+        <ol class="listaOrdenada"> <!-- reversed --> <!-- ordered list -->
+            <li>Levantarse</li>
+            <li>Meditar</li>
+            <li>Bañarse</li>
+            <li>Cocinar el desayuno</li>
+            <ul class="listaDesordenada">
+                <li>Para cuantas personas?</li>
+                <li>Que ingredientes se poseen?</li>
+                <li>Sacar todos los ingredientes</li>
+                <li>Preparar el desayuno</li>
+            </ul>
+            <li>item 4</li>
+            <li>item 5</li>
+        </ol>
+        </p>
     </div>
     <br>
     <p><b><i>este ejemplo se ve diferente sin "text-align: center en css"</i></b></p>
@@ -125,11 +143,12 @@
     <!-- otro tema 23/08/2023 -->
     <h1 class="titulo">Otro tema</h1>
     <div>
-        <p class="cssestilo">este es otro tema de programacion y es para justamente aprender a programar estilo de css. asi que a trabajar. </p>
+        <p class="cssestilo">este es otro tema de programacion y es para justamente aprender a programar estilo de css.
+            asi que a trabajar. </p>
     </div>
 
 
-    
+
 
 
 
