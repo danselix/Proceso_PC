@@ -9,17 +9,24 @@
     <style>
         .div1 {
             background-color: burlywood;
-            margin: 5px;
-            padding: 5px;
+            margin: 15px;
+            padding: 15px;
             border-radius: 7px;
+            /* display: flexbox;
+            justify-content: center; */
+            
         }
-        .img{
+
+        .img {
             height: 700px;
         }
     </style>
 </head>
 
+                        <!-- //**\\ -->
+
 <body class="cuerpo">
+    <!-- cuantos kilometros... -->
     <div class="div1">
         <h1 class="titulo">¿Cuantos kilometros hay de la tierra a la Luna?</h1>
 
@@ -29,6 +36,8 @@
             no es mas que una <abbr title="se feliz">simple expresion</abbr><br>
         </p>
     </div>
+
+    <!-- oms -->
     <div class="div1">
         <h1 class="titulo">¿Que significa oms?</h1>
         <p class="parrafo">Coloca el mouse encima para saberlo: <abbr
@@ -37,6 +46,7 @@
                                                             esta clase de etiqueta ya no se usa, pero todavia se encuentra-->
     </div>
 
+    <!-- ejemplo etiqueta a -->
     <div class="div1">
         <h1 class="titulo">Lo que viene ahora es un ejemplo de la etiqueta 'a'</h1>
         <a class='etiquetas' href="https://www.youtube.com/watch?v=bNV6iw13Rnk" target="_blank"><b>Curso <i>HTML</i>
@@ -57,94 +67,120 @@
         <hr>
         <hr>
     </div>
-<div class="div1">
+
     <!-- LA ETIQUETA IMG -->
-    <h1 class="titulo">Etiqueta de IMG</h1>
-    <img src="leonardo IA/time adventure.jpg" alt="time adventure" width="700px" class="imagenes">
-</div>
-    <h1 class="titulo">Etiqueta de 'video'</h1>
-    <video class="video" src="videos/free_fall.mp4" alt="Its called: free fall" width="720px" controls autoplay
-        muted></video>
-    <!-- muted -->
-    <br>
-    <hr>
-    <hr>
-    <!-- tambien puede hacerse asi: -->
-    <h1 class="titulo">Etiqueta forma 2 de 'video'</h1>
-    <!-- La propiedad 'poster' coloca una imagen seleccionada antes de que se reproduzca el video -->
-    <video class="video" width="720px" controls muted poster="leonardo IA/buso_bajo_el_agua.jpg">
-        <!-- autoplay -->
-        <source src="videos/cure_for_me-Aurora.mp4.mp4" type="video/mp4">
-
-    </video>
-    <p>para descargar el video haz click <a href="videos/cure_for_me-Aurora.mp4.mp4" target="_blank">aqui</a></p>
-    <br>
-    <hr>
-    <hr>
-
-    <h1 class="titulo">Este es un ejemplo de Audio</h1>
-    <audio src="audio/the_pretender-Foo_Fighters.mp3" controls muted>Audio</audio>
-    <br>
-    <hr>
-    <hr>
-
-    <h1 class="titulo">Ejemplo de listas</h1>
-    <div class="parrafo">
-        <h2>Ejemplo de lista desordenada 'Unordered list'</h2>
-        <!-- en las listas podemos agregar 'type:""' para cambiar los simbolos con los que se organiza la lista -->
-        <ul class="listaDesordenada"> <!-- UL= unordered list -->
-            <li>item 1</li>
-            <li>item 2</li>
-            <li>item 3</li>
-            <li>item 4</li>
-        </ul>
-        <h2 class="titulo">Ejemplo de lista desordenada 'Ordered list'</h2>
-    </div>
-    <div class="parrafo">
-        <p class="parrafo">
-            tabmien podemos colocar propiedades como 'reversed' o 'starts' o 'type' para cambiar el orden por el numero
-            en el que comienza</p>
-        <ol class="listaOrdenada"> <!-- reversed --> <!-- ordered list -->
-            <li>Levantarse</li>
-            <li>Meditar</li>
-            <li>Bañarse</li>
-            <li>Cocinar el desayuno</li>
-            <ul class="listaDesordenada">
-                <li>Para cuantas personas?</li>
-                <li>Que ingredientes se poseen?</li>
-                <li>Sacar todos los ingredientes</li>
-                <li>Preparar el desayuno</li>
-            </ul>
-            <li>item 4</li>
-            <li>item 5</li>
-        </ol>
-        </p>
-    </div>
-    <br>
-    <p><b><i>este ejemplo se ve diferente sin "text-align: center en css"</i></b></p>
-
-    <h1 class="titulo">Tabla de ejemplo</h1>
-    <table class="tabla"> <!-- etiqueta de tabla -->
-        <tr class="tr"> <!-- etiqueta de fila -->
-            <td class="td"></td> <!-- etiqueta de colmuna -->
-            <td class="td">Item 2</td>
-            <td class="td">Item 3</td>
-            <td class="td">Item 4</td>
-            <td class="td">Item 5</td>
-        </tr>
-        <tr class="tr">
-            <td class="td">Item 1</td>
-            <td class="td">Item 2</td>
-            <td class="td">Item 3</td>
-            <td class="td">Item 4</td>
-            <td class="td">Item 5</td>
-        </tr>
-    </table>
-    <!-- otro tema 23/08/2023 -->
-    <h1 class="titulo">Otro tema</h1>
     <div>
-        <p class="cssestilo">este es otro tema de programacion y es para justamente aprender a programar estilo de css.
-            asi que a trabajar. </p>
+        <h1 class="titulo">Etiqueta de IMG</h1>
+        <img src="leonardo IA/time adventure.jpg" alt="time adventure" width="700px" class="imagenes">
+    </div>
+
+    <!-- etiqueta de video -->
+    <div class="div1">
+        <h1 class="titulo">Etiqueta de 'video'</h1>
+        <video class="video" src="videos/free_fall.mp4" alt="Its called: free fall" width="720px" controls autoplay
+            muted></video>
+        <!-- muted -->
+        <br>
+    </div>
+
+    <hr>
+    <hr>
+    <!-- Etiqueta forma 2 de 'video' -->
+    <div class="div1">
+        <!-- tambien puede hacerse asi: -->
+        <h1 class="titulo">Etiqueta forma 2 de 'video'</h1>
+        <!-- La propiedad 'poster' coloca una imagen seleccionada antes de que se reproduzca el video -->
+        <video class="video" width="720px" controls muted poster="leonardo IA/buso_bajo_el_agua.jpg">
+            <!-- autoplay -->
+            <source src="videos/cure_for_me-Aurora.mp4.mp4" type="video/mp4">
+
+        </video>
+        <p>para descargar el video haz click <a href="videos/cure_for_me-Aurora.mp4.mp4" target="_blank">aqui</a></p>
+    </div>
+
+    <hr>
+    <hr>
+
+    <!-- Este es un ejemplo de Audio -->
+    <div class="div1">
+        <h1 class="titulo">Este es un ejemplo de Audio</h1>
+        <audio src="audio/the_pretender-Foo_Fighters.mp3" controls muted>Audio</audio>
+    </div>
+
+    <hr>
+    <hr>
+
+    <!-- Este es un ejemplo de Audio -->
+    <div class="div1">
+        <h1 class="titulo">Ejemplo de listas</h1>
+        <div class="parrafo">
+            <h2>Ejemplo de lista desordenada 'Unordered list'</h2>
+            <!-- en las listas podemos agregar 'type:""' para cambiar los simbolos con los que se organiza la lista -->
+            <ul class="listaDesordenada"> <!-- UL= unordered list -->
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+            </ul>
+            <h2 class="titulo">Ejemplo de lista desordenada 'Ordered list'</h2>
+        </div>
+        <div class="parrafo">
+            <p class="parrafo">
+                tabmien podemos colocar propiedades como 'reversed' o 'starts' o 'type' para cambiar el orden por el
+                numero
+                en el que comienza</p>
+            <ol class="listaOrdenada"> <!-- reversed --> <!-- ordered list -->
+                <li>Levantarse</li>
+                <li>Meditar</li>
+                <li>Bañarse</li>
+                <li>Cocinar el desayuno</li>
+                <ul class="listaDesordenada">
+                    <li>Para cuantas personas?</li>
+                    <li>Que ingredientes se poseen?</li>
+                    <li>Sacar todos los ingredientes</li>
+                    <li>Preparar el desayuno</li>
+                </ul>
+                <li>item 4</li>
+                <li>item 5</li>
+            </ol>
+            </p>
+        </div>
+    </div>
+
+    <p class="div1"><b><i>este ejemplo se ve diferente sin "text-align: center en css"</i></b></p>
+
+
+    <!-- Tabla de ejemplo -->
+    <div class="div1">
+        <h1 class="titulo">Tabla de ejemplo</h1>
+        <table class="tabla"> <!-- etiqueta de tabla -->
+            <tr class="tr"> <!-- etiqueta de fila -->
+                <td class="td"></td> <!-- etiqueta de colmuna -->
+                <td class="td">Item 2</td>
+                <td class="td">Item 3</td>
+                <td class="td">Item 4</td>
+                <td class="td">Item 5</td>
+            </tr>
+            <tr class="tr">
+                <td class="td">Item 1</td>
+                <td class="td">Item 2</td>
+                <td class="td">Item 3</td>
+                <td class="td">Item 4</td>
+                <td class="td">Item 5</td>
+            </tr>
+        </table>
+        <!-- otro tema 23/08/2023 -->
+    </div>
+
+
+    <!-- Otro tema -->
+    <div class="div1">
+        <h1 class="titulo">Otro tema</h1>
+        <div class="parrafo">
+            <p class="cssestilo">este es otro tema de programacion y es para justamente aprender a programar estilo de
+                css.
+                asi que a trabajar. </p>
+        </div>
     </div>
 
 

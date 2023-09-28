@@ -15,6 +15,7 @@
     border-radius: 5px;
 }
 .parrafo {
+    width: 530px;
     text-align: center;
     background-color: aqua;
     background-image: linear-gradient(to right, #F4FA58, #9B59B6);
