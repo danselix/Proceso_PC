@@ -17,6 +17,13 @@
 
 /* cuerpos */
 
+/* .div1{
+    margin: 20px;
+    padding: 17px;
+    background-color: cadetblue;
+} */ 
+/* ARREGLAR EL AJUSTE DE TAMAÑO DE LA IMAGEN PARA QUE SEA AUTOMATICO AL TAMAÑO DE LA PANTALLA Y ASI NO SE SALGA DEL BACKGROUND-COLOR DEL DIV */
+
 .p1{
     background-color: rgb(207, 192, 171);
     margin: 20px;
