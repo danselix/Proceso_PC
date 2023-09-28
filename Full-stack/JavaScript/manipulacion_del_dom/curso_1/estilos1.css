@@ -1,0 +1,35 @@
+/* body */
+/* dentro del head del html */
+
+/* titulos */   
+.h1{
+    background-color: rgb(169, 138, 197);
+    margin: 20px;
+    padding: 17px;
+    border-radius: 7px ;
+}
+.h2{
+    background-color: rgb(166, 227, 227);
+    margin: 20px;
+    padding: 17px;
+    border-radius: 7px ;
+}
+
+/* cuerpos */
+
+.p1{
+    background-color: rgb(207, 192, 171);
+    margin: 20px;
+    padding: 17px;
+    border-radius: 7px ;
+
+}
+.img1{
+    width: 600px;
+    background-color: gray;
+    margin: 20px;
+    padding: 17px;
+    border-radius: 7px ;
+    display: block;
+    justify-content: center;
+}
