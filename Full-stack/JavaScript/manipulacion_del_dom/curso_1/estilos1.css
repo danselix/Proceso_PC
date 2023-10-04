@@ -1,42 +1,48 @@
 /* body */
 /* dentro del head del html */
 
-/* titulos */   
-.h1{
-    background-color: rgb(169, 138, 197);
-    margin: 20px;
-    padding: 17px;
-    border-radius: 7px ;
+/* titulos */
+.h1 {
+  background-color: rgb(169, 138, 197);
+  margin: 20px;
+  padding: 17px;
+  border-radius: 7px;
 }
-.h2{
-    background-color: rgb(166, 227, 227);
-    margin: 20px;
-    padding: 17px;
-    border-radius: 7px ;
+.h2 {
+  background-color: rgb(166, 227, 227);
+  margin: 20px;
+  padding: 17px;
+  border-radius: 7px;
 }
 
 /* cuerpos */
 
 /* .div1{
-    margin: 20px;
-    padding: 17px;
-    background-color: cadetblue;
-} */ 
+    margin:auto;
+}  */
 /* ARREGLAR EL AJUSTE DE TAMAÑO DE LA IMAGEN PARA QUE SEA AUTOMATICO AL TAMAÑO DE LA PANTALLA Y ASI NO SE SALGA DEL BACKGROUND-COLOR DEL DIV */
 
-.p1{
-    background-color: rgb(207, 192, 171);
-    margin: 20px;
-    padding: 17px;
-    border-radius: 7px ;
-
+.p1 {
+  background-color: rgb(207, 192, 171);
+  margin: 20px;
+  padding: 17px;
+  border-radius: 7px;
 }
-.img1{
-    width: 600px;
-    background-color: gray;
-    margin: 20px;
-    padding: 17px;
-    border-radius: 7px ;
-    display: block;
-    justify-content: center;
+.img1 {
+  width: 600px;
+  background-color: gray;
+  margin: 20px;
+  padding: 17px;
+  border-radius: 7px;
+  display: block;
+  justify-content: center;
+}
+.img2 {
+  width: 300px;
+  background-color: rgb(71, 70, 70);
+  margin: 7px;
+  padding: 7px;
+  border-radius: 7px;
+  display: block;
+  justify-content: center;
 }
