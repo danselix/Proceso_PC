@@ -28,6 +28,10 @@
   padding: 17px;
   border-radius: 7px;
 }
+.q1{
+    background-color: #ff0000;
+    background-image: linear-gradient(to bottom right, #ff0000, #0000ff);  
+}
 .img1 {
   width: 600px;
   background-color: gray;
@@ -44,5 +48,5 @@
   padding: 7px;
   border-radius: 7px;
   display: block;
-  justify-content: center;
+  margin: 0 auto;
 }
