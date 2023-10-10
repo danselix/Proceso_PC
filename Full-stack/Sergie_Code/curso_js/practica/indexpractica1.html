@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>practicando JAVASCRIPT</title>
 </head>
+
 <body>
     <h1>Abre la consola perro :v =></h1>
+
+    <h1>Ejemplo de clase privada</h1>
+    <h2>Estudiar! es una orden y peticion.</h2>
+    <pre>
+        class MiClase {
+            constructor() {
+              this._propiedadPrivada = 42;
+            }
+          
+            obtenerPropiedadPrivada() {
+              return this._propiedadPrivada;
+            }
+          
+            establecerPropiedadPrivada(valor) {
+              this._propiedadPrivada = valor;
+            }
+          }
+          
+          const instancia = new MiClase();
+          console.log(instancia.obtenerPropiedadPrivada()); // 42
+          instancia.establecerPropiedadPrivada(50);
+          console.log(instancia.obtenerPropiedadPrivada()); // 50
+          console.log(instancia._propiedadPrivada); // Aún se puede acceder, pero se considera una convención privada
+          
+    </pre>
+
     <script src="practicaJS1.js"></script>
 </body>
+
 </html>
