@@ -7,9 +7,6 @@ let d = 0;
 let e = 0;
 
 const numeroVariable = [a,b,c,d,e,]
-    
-for (numeroVariable.length){
 
-}
 
 
