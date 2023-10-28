@@ -18,7 +18,12 @@
 /* cuerpos */
 
 /* .div1{
-    margin:auto;
+  margin: 20px;
+  padding: 17px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }  */
 /* ARREGLAR EL AJUSTE DE TAMAÑO DE LA IMAGEN PARA QUE SEA AUTOMATICO AL TAMAÑO DE LA PANTALLA Y ASI NO SE SALGA DEL BACKGROUND-COLOR DEL DIV */
 
@@ -27,6 +32,16 @@
   margin: 20px;
   padding: 17px;
   border-radius: 7px;
+}
+.pre1{
+  width: 500px;
+  background-color: cadetblue;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .q1{
     background-color: #ff0000;
@@ -38,8 +53,9 @@
   margin: 20px;
   padding: 17px;
   border-radius: 7px;
-  display: block;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 .img2 {
   width: 300px;
@@ -48,5 +64,5 @@
   padding: 7px;
   border-radius: 7px;
   display: block;
-  margin: 0 auto;
+  align-items: center;
 }
