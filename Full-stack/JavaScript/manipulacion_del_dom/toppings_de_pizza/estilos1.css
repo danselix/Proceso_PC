@@ -1,0 +1,32 @@
+.cuerpo{
+    background-color: rgb(117, 32, 32);
+    padding: 7px;
+    margin: 7px;
+    border-radius: 7px;
+}
+/*  */
+.titulo1{
+    background-color: rgb(108, 219, 223);
+    padding: 7px;
+    margin: 7px;
+    border-radius: 7px;
+    text-align: center;
+}
+.parrafo1{
+    background-color: bisque;
+    padding: 7px;
+    margin: 7px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.unordered-list{
+    background-color: bisque;
+    padding: 7px;
+    margin: 7px;
+    border-radius: 7px;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+}
