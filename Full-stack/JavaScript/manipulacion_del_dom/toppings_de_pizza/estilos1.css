@@ -6,10 +6,6 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .cuerpo {
-  background-color: rgb(117, 32, 32);
-  padding: 7px;
-  margin: 7px;
-  border-radius: 7px;
   /* creacion del curso "pizza" */
   display: flex;
   justify-content: center;
@@ -26,23 +22,7 @@
   width: 100%;
   margin: 20px 10px;
 }
-.parrafo1 {
-  background-color: bisque;
-  padding: 7px;
-  margin: 7px;
-  border-radius: 7px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
 .unordered-list {
-  background-color: bisque;
-  padding: 7px;
-  margin: 7px;
-  border-radius: 7px;
-  /* display: flex;
-    justify-content: center;
-    text-align: center; */
   width: 100%;
   height: 100%;
 }
@@ -58,9 +38,9 @@
   border: 4px solid black;
 }
 .toppings {
-  font-size: 2rem;
+  font-size: 6%;
   font-weight: bold;
-  color: white;
+  color: cadetblue;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
