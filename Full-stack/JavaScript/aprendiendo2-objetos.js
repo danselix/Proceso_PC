@@ -20,5 +20,7 @@ const Personaje = {
 }
 
 Personaje.sethabilidad(-10)
+const Danselix95 = new Personaje
 
+console.log (Danselix95)
 
