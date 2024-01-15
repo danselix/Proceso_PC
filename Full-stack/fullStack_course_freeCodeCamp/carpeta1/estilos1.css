@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.ancla {
+  background-color: cadetblue;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 7px;
+}
+.img1 {
+  width: 100%;
+  height: auto;
+}
+.titulo1 {
+  /* posicion */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* imagen */
+  background-color: cadetblue;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 7px;
+}
+.pre1 {
+  /* posicion */
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  /* color */
+  background-color: #8be9d2;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 7px;
+}
+.parrafo1 {
+  /* posicion */
+  /* display:flex;
+    justify-content: center;
+    align-items: center; */
+  /* color */
+  background-color: #8be9d2;
+  padding: 20px;
+  margin: 7px;
+  border-radius: 7px;
+}
