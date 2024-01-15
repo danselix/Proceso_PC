@@ -2,6 +2,11 @@ html {
   height: 100%;
   width: 100%;
 }
+body{
+    background-color: black;
+    margin: auto;
+    padding: 7px;
+}
 .ancla {
   background-color: cadetblue;
   padding: 7px;
