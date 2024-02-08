@@ -10,8 +10,11 @@ body{
 .ancla {
   background-color: cadetblue;
   padding: 7px;
-  margin: 7px;
+  margin: 15px;
   border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .img1 {
   width: 100%;
@@ -45,8 +48,8 @@ body{
     justify-content: center;
     align-items: center; */
   /* color */
-  background-color: #8be9d2;
+  background-color: #4baa92;
   padding: 20px;
-  margin: 7px;
+  margin: 15px;
   border-radius: 7px;
 }
