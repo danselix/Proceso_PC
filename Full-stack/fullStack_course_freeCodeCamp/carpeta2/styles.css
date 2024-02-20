@@ -1,0 +1,17 @@
+/* Estilo base para la tabla */
+.dynamic-table {
+    border-collapse: collapse;
+    width: auto; /* Se ajustará automáticamente al contenido */
+  }
+  
+  .dynamic-table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  /* Estilo adicional para los colores de fondo */
+  .dynamic-table td:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
