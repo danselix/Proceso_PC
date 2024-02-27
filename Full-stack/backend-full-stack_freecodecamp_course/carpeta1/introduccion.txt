@@ -47,6 +47,23 @@ Paginas web estaticas y dinamicas:
 	interactuan con el cliente para servir mas informacion y la requieren
 	para un uso adecuado.
 
+//	//	//	//	//	//	//	//	//	//
+
+	Node.js es usado para: desarrollar back-end y desarrollar API's
+
+	API= Aplication Programming Intarface (interfaz de programacion 
+	de aplicaciones)
+
+	A aclarar, las API's sirven como interfaz entre el servidor y el 
+	front-end de una app 
+
+	Node.js permite construir apps escalables y de tiempo real. 
+	Node.js NO es un lenguaje de programacion ni un framework, mucho
+	menos una libreria. Node.js es un entorno de programacion que permite
+	ejecutar archivos javascript sin un navegador.
+
+
+
 
 
 
