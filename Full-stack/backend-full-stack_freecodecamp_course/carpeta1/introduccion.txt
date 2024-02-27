@@ -62,10 +62,36 @@ Paginas web estaticas y dinamicas:
 	menos una libreria. Node.js es un entorno de programacion que permite
 	ejecutar archivos javascript sin un navegador.
 
+//	//	//	//	//	//	//	//	//	//	
 
 
+Modulos
+	
+	Funcionalidad organizada en uno o varios archivos Javascript que 
+	puede ser reutilizada en una app.
+
+	Esta forma de modularizar el codigo permite un mantenimiento mas 
+	eficiente y tiene la capacidad de reusar modulos de codigo en otro
+	tipo de aplicativos.
+
+	Ventajas:
+		-Evita repeticion del codigo.
+		-Reutilizar el codigo.
+		-Es mas facil encontrar y corregir `bugs`.
+		-Es mas facil modificar el codigo.
+		-Es mas facil agregar nueva funcionalidad.
 
 
+Exportar e Importar 
+
+	Importar (un modulo)
+	  Darle acceso a funciones y elementos definidos en otro modulo
+	
+	(para importar codigo desde otro modulo no solo debemos importar 
+	 el codigo desde el modulo actual, sino que tambien debemos exportar
+	 el codigo desde el modulo anterior)
+
+	 // vamos en el minuto 50:00 \\
 
 
 
