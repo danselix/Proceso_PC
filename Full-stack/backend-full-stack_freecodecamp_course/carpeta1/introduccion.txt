@@ -1,0 +1,55 @@
+Introduccion a Node.js
+
+Node.js
+	Es un entorno de ejecucion de Javascript orientado a eventos asincronos.
+
+	(El entorno de ejecucion es la infraestructura en el cual se ejecuta un	
+	programa y aplicacion)
+
+	(Un evento asincrono es aquel que se ejecuta independientemente del 
+	proceso principal de la aplicacion)(Por el contrario un evento sincrono
+	es aquel que se ejecuta como parte del proceso principal de la app)
+
+Caracteristicas importantes:
+- Open-source
+- Multiplataforma
+- Basado en el motor v8 de Google
+
+CONCEPTOS IMPORTANTES 
+ 	Arquitectura cliente-servidor
+	-modelo mediante el cual el servidor envia recursos al dispositivo 
+	 que los solicita (cliente)
+	
+	Desarrollo Front-end
+	-area del desarrollo web que se encarga del desarrollo de los componentes
+	 que ve el usuario y con los cuales interactua
+	
+	Desarrollo Back-end
+	-area del desarrollo web que se encarga del desarrollo de los servidores 
+	 (lo que el usuario no ve)
+	
+	Protocolo 
+	-reglas que permiten que dos entidades de una red se comuniquen 
+	 (reglas de comunicacion y diferentes formatos)
+	
+	Base de Datos
+	-conjunto de datos estructurados sobre un mismo contexto que se pueden 
+	 consultar
+
+	// FLUJO DE INFORMACION \\
+
+	  cleinte/navegador (front-end) <--> servidor (back-end) <--> Base de datos
+
+Paginas web estaticas y dinamicas:
+	las paginas estaticas son aquellas que una vez servida la informacion no
+	necesitan actualizarse ni modificar nada de si mismas y no interactuan
+	con el cliente. A diferencia de las paginas dinamicas que efectivamente 
+	interactuan con el cliente para servir mas informacion y la requieren
+	para un uso adecuado.
+
+
+
+
+
+
+
