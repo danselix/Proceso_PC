@@ -91,7 +91,7 @@ Exportar e Importar
 	 el codigo desde el modulo actual, sino que tambien debemos exportar
 	 el codigo desde el modulo anterior)
 
-	 // vamos en el minuto 50:00 \\
+	 // vamos en el minuto 58:06 \\
 
 
 

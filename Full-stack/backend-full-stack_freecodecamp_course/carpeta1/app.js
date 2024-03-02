@@ -1,4 +1,7 @@
-const saludo = require("./saludo.js");
+const saludos = require('./saludos.js');
+/* este es el codigo para importar modulos */
 
 
-console.log(saludo.saludar("freecodecamp"));
+console.log(saludos.saludar('Danselix'));
+
+console.log(saludos.saludarHolaMundo());
