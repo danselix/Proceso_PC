@@ -3,5 +3,4 @@ const saludos = require('./saludos.js');
 
 
 console.log(saludos.saludar('Danselix'));
-
 console.log(saludos.saludarHolaMundo());
