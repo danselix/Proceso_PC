@@ -1,0 +1,27 @@
+/* Estilo base para la barra de navegación */
+.navbar {
+    overflow: hidden;
+    background-color: #333; /* Color de fondo de la barra */
+  }
+  
+  /* Estilo para los elementos del menú */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2; /* Color del texto */
+    text-align: center;
+    padding: 14px 16px; /* Espaciado entre elementos */
+    text-decoration: none;
+  }
+  
+  /* Estilo para los elementos del menú al pasar el cursor */
+  .navbar a:hover {
+    background-color: #ddd; /* Cambio de color al pasar el cursor */
+    color: black; /* Cambio de color del texto al pasar el cursor */
+  }
+  
+  /* Estilo para el menú activo */
+  .active {
+    background-color: #666; /* Color de fondo del elemento activo */
+  }
+  
