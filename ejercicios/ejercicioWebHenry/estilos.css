@@ -13,10 +13,25 @@ body{
     align-items:center;
     justify-content: center;
 }
+.header{
+    border-radius: 11px;
+    margin: 7px;
+    padding: .25em;
+    background-color: rgb(189, 189, 65);
+
+}
 .main{
+    border-radius: 11px;
     margin: 11px;
     padding: 7px;
     background-color: bisque;
+
+}
+.article{
+    padding: .25em;
+    margin: .3em;
+    border-radius: 7px;
+    background-color: azure;
 }
 .titulo{
     color: aqua;
@@ -32,9 +47,9 @@ body{
     background-color: black;
 }
 .parrafo{
-    margin: 7px;
+    margin: .25em;
+    padding: .25em;
     border-radius: 7px;
-
     background-color: aquamarine;
 }
 .menuBarraPrincipal{
@@ -43,9 +58,14 @@ body{
 
 }
 .span{
-    color: blueviolet;
-    padding: 2px;
-    margin: 2px;
-    background-color: black;
+    padding: .5em;
+    margin: .5em;
+    background-color: rgb(255, 151, 151);
     border-radius: 3px;
+}
+.footer{
+    background-color: cadetblue;
+    border-radius: 11px;
+    margin: .25em;
+    padding: .5em;
 }
