@@ -1,18 +1,51 @@
-.img{
-    height: 420px;
-    width: auto;
-}
 body{
     background-color: chocolate;
 }
-.titulo{
+.img{
+    height: 420px;
+    width: auto;
+    /* display: flexbox;
+    justify-content: center;
+    align-items: center; */
+}
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.main{
     margin: 11px;
+    padding: 7px;
+    background-color: bisque;
+}
+.titulo{
+    color: aqua;
+    margin: 11px;
+    padding: 7px;
     border-radius: 11px;
-    background-color: beige;
+    background-color: rgb(70, 70, 46);
+}
+#tituloPrincipal{
+    font-size: 3em;
+}
+#not1{
+    background-color: black;
 }
 .parrafo{
     margin: 7px;
     border-radius: 7px;
 
     background-color: aquamarine;
+}
+.menuBarraPrincipal{
+    padding: 7px;
+    margin: 7px;
+
+}
+.span{
+    color: blueviolet;
+    padding: 2px;
+    margin: 2px;
+    background-color: black;
+    border-radius: 3px;
 }
