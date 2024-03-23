@@ -1,0 +1,32 @@
+.tarjeta {
+  /* Estilos para el contenedor tarjeta */
+  width: 33em; /* Ancho deseado del contenedor */
+  height: auto; /* Altura deseada del contenedor */
+  border: 1px solid #ccc; /* Borde de ejemplo */
+  border-radius: .5em;
+  overflow: hidden; /* Para recortar la imagen que exceda el contenedor */
+  margin: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: .5em;
+}
+
+.img {
+  max-width: 100%; /* Ancho máximo de la imagen al 100% del contenedor */
+  max-height: 100%; /* Altura máxima de la imagen al 100% del contenedor */
+  display: block; /* Para eliminar el espacio extra debajo de la imagen */
+  margin: auto; /* Centra la imagen horizontalmente */
+  border-radius: .5em;
+}
+
+#cards-container{
+    background-color: rgb(33, 88, 88);
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(108, 216, 216);
+    border-radius: .5em;
+    display: flex;
+    
+
+}
