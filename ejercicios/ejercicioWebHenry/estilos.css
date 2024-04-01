@@ -19,7 +19,6 @@ body{
     margin: 7px;
     padding: .25em;
     background-color: rgb(239, 239, 128);
-
 }
 .menuBarraPrincipal{
     padding: .5em 15px .5em 15px;
@@ -30,8 +29,9 @@ body{
 
 }
 .main{
+    width: 80%;
     border-radius: 11px;
-    margin: 11px;
+    margin: auto;   
     padding: 7px;
     background-color: bisque;
 
