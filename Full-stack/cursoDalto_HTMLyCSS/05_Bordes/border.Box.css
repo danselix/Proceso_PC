@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+}
+.box-default{
+    margin: 2px auto;
+    border: 10px solid black;
+}
+.box-new{
+    box-sizing: border-box; /* box-sizing: content-box*/
+    
+    /* box-sizing: border-box; es la propiedad que nos permite especificar el tamaño especifico que queremos que ocupe nuestro contenedor en el espacio que deseamos. puesto que esta propiedad encapsula todo (contenido padding y border) dentro del width que nosotros le especifiquemos*/
+    margin: 2px auto;
+    border: 10px solid black;
+}

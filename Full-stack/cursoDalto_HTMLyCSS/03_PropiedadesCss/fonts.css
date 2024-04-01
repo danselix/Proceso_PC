@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Gothic;
+    src: url(/03_PropiedadesCss/fonts//Grenze_Gotisch/GrenzeGotisch-VariableFont_wght.ttf) format(truetype);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Gothic;
+    src: url(/03_PropiedadesCss/fonts//Grenze_Gotisch/static/GrenzeGotisch-Light.ttf) format(truetype);
+    font-weight: 100;
+}
+/* este archivo.css fue configurado para  explorar la configuracion de los estilos en base al weight-font.
+
+En este caso lo que se esta tratando de hacer es configurar diferentes estilos y tipos de fuentes en base al weight font para poder cambiar el grosor o el estilo de la letra en base a solo el indice de weight font que se le asigne*/

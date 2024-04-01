@@ -4,3 +4,6 @@ imagenes/
 full-stack/aja/imagenes/
 full-stack/aprendiendo/aprendiendo1/imagenes
 # ignora videos
+
+#ignora las fuentes de texto
+full-stack/cursoDalto_HTMLyCSS/text-fonts

@@ -1,0 +1,25 @@
+/* Padding */
+.formulario {
+    width: 300px;
+    padding: 7px;
+    margin: 0;
+}
+
+.formulario-input{
+    padding: 10px;
+    margin: 5px ;
+    width: 90%;
+}
+
+.formulario-submit{
+    margin: 5px 1em;
+}
+/* margin */
+
+.box{
+    background: red;
+    color: white;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+}

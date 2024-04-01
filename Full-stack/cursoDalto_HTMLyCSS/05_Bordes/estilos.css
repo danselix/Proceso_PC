@@ -1,0 +1,42 @@
+.div {
+    background: red;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    /* bordes */
+    border-width: 5px;
+    border-color: black;
+    /* transparent;  */
+    border-style: solid;
+    /* dashed; double; groove; dotted; hidden */
+    border-radius: 4px;
+    /* el borde se ve diferente en px y en %´s */
+    /* border: 5px solid black; */
+    /* esta es la forma correcta de usar las propiedades mencionadas arriba. donde el primer valor es width, despues color y despues style. */
+    
+    /* border-top: ; */ /* -left; -bottom; -right  */
+}
+
+/* ¡IMPORTANTE! */
+/* hay propiedades que reciben parametros acumulados. como en este casi lo es "border" y "border-radius" y estas siempre reciben los parametros en sentido horario (arriba, derecha, abajo e izquierda) */
+
+.div2{
+    background: magenta;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    /* border */
+    border: 5px solid gray;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30px ;
+}
+.div3{
+    background: yellow;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    /* border */
+    border: 5px groove green;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30px;
+}

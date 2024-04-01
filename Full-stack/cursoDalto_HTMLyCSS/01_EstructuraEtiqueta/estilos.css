@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(49, 79, 80);
+    max-width: 1200px;
+}
+.mainTitle{
+    background-color: rgb(141, 194, 158);
+    margin: .05em;
+    padding: .4em;
+    border: solid 2px;
+    border-radius: 7px;
+}
+.menuNav{
+    border: solid;
+    padding: .5em;
+    margin: 0 auto;
+    border-radius: 7px;
+    background-color: rgb(47, 35, 84);
+}
+.ancla{
+    color: black;
+    background-color: rgb(191, 225, 254);
+    padding: .15em;
+    margin: .2em;
+    border-radius: 7px;
+}
+.Header{
+    margin: 2px;
+    padding: 3pxem;
+}
+.mainBody{
+    background-color: rgb(32, 65, 67);
+    border: solid 2px;
+    border-radius: 7px;
+    margin: 0 auto;
+    padding: .08em;
+    max-width: 800px;
+}
+.parrafo{
+    background-color: rgb(129, 245, 249);
+    border: solid 2px;
+    border-radius: 7px;
+    margin: .4em;
+    padding: .5em;
+
+}
+.pieDePagina{
+    background-color: rgb(47, 35, 84);
+    padding: .3em;
+    margin: .2em;
+    border: solid 2px;
+    border-radius: 7px;
+}
+/* etieuqteas pata texto y de relleno */
+.textoBasico{
+    color: black;
+    background-color: beige;
+    padding: .15em;
+    margin: .2em;
+    border-radius: 7px;
+}

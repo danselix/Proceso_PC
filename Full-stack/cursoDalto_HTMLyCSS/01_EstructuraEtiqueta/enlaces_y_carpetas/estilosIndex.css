@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(49, 79, 80);
+}
+.mainTitle{
+    background-color: aquamarine;
+    border: solid 3px;
+    border-radius: .5em;
+    padding: .5em;
+    margin: .3em;
+
+}
+.menuNav{
+    border: solid;
+    padding: .5em;
+    margin: .5em;
+    border-radius: 7px;
+    background-color: rgb(84, 138, 185);
+}
+.ancla{
+    background-color: rgb(165, 221, 223);
+    border-radius: 7px;
+    margin: .2em;
+    padding: .3em;
+
+}
+#menuActual{
+    color: bisque;
+    background-color: rgb(4, 52, 141);
+}
