@@ -1,0 +1,50 @@
+body{
+    background-color: #0f0;
+}
+.div1{
+    padding: 1em;
+    margin: .5em;
+    background-color: #b73a8366;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    width: 90%;
+    height: 800px;
+    margin: 20px;
+    /* añadidios */
+    border-radius: 1em;
+
+    background-color: #ff33aa66; /* el ultimo numero da un efecto de transparencia */
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/mustang-shelby-gt500-h-1652189100.jpg?crop=0.670xw:1.00xh;0.176xw,0&resize=1200:*");/* con esta propiedad podemos pasarle una imagen de fondo al contenedor que queramos */
+    /* background-size: 100% ; *//* controla el tamaño y la proporcion del background o la imagen que pongamos detras */
+    /* bacground-size: contain; contiene a la imagen y fuerza al navegador a mostrar la imagen segun el tamaño que le hayamos dado el contenedor al menos 1 vez */
+    /*  */
+    background-size: cover;
+    background-position: center; /* top; bottom; right; left;  */
+}
+.contenedor_imagen{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    background: url(https://us.harlequinfloors.com/wp-content/uploads/2022/01/03_CD_Buddy_Holly_Lubbock_Main_Audit_03.jpg) top / cover fixed #6fa ;
+}
+.contenedor_imagen-2{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    background: url(https://www.prensalibre.com/wp-content/uploads/2020/03/teatro.jpg?resize=1024,682) top / cover fixed #6fa ;
+    /* background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #6fa;
+     */
+}
+.imagen_Ejemplo{
+    width: 90%;
+    border-radius: 1em;
+    padding: 1em;
+    
+}
