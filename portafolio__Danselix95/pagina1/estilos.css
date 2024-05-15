@@ -27,12 +27,19 @@ body{
     background-color: grey;
     border-radius: 1em;
     border-color: greenyellow;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQJqwKhCduh-oe-mJ1u2GURHlyzpPGbPtsMUlbk8ZMcQ&s") top / cover fixed;
 }
 .img{
-    width: 80%;
+    width: 100%;
+    height: auto;
     display: flex;
     margin: auto;
     border: 7px;
-    
+    border-radius: 0.5em;
+}
 
+/* //   // // // // // // 7/ // */
+
+.titulo{
+    background-color: #6fa;
 }
