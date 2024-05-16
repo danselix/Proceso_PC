@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(37, 77, 77);
+}
+/* Header */
+
+/* Main */
+.main{
+    border: .3em solid black;
+    border-radius: 7px;
+    background-color: blanchedalmond;
+}
+.elemento {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    margin: 20px;
+}
+.transparente {
+    opacity: 0.5;
+}
+.fondo-transparente {
+    background-color: rgba(82, 82, 211, 0.3);
+}
+
+/* Footer */
+.footer{
+    display: flexbox;
+    text-align: center;
+}
+.contenedor{
+    background-color: rgb(48, 211, 217);
+    color: black;
+    margin: .5em;
+    padding: 1em;
+    border: .1em outset black;
+    border-radius: 7px;
+    display: inline-block;
+    
+}
+.ancla{
+    background-color: white;
+    color: black;
+    border: .1em solid gray;
+    padding: .3em;
+}
+/* Over all */
+.semitransp{
+    opacity: 0.5;
+}

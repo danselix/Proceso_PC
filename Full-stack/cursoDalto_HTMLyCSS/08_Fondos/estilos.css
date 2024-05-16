@@ -26,6 +26,8 @@ body{
     background-position: center; /* top; bottom; right; left;  */
 }
 .contenedor_imagen{
+    border-radius: 1em;
+
     display: flexbox;
     justify-content: center;
     align-items: center;
@@ -47,4 +49,16 @@ body{
     border-radius: 1em;
     padding: 1em;
     
+}
+/* .parrafo1{
+    padding: 1em;
+    
+} */
+.parrafo1{
+    padding: 20px;
+    color: white;
+    background-color: #000; /* Fondo azul */
+    opacity: 0.5; /* 50% de opacidad para todo el elemento */
+    text-align: center;
+    border-radius: 1em;
 }
